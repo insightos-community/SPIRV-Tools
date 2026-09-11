@@ -28,7 +28,8 @@ import re
 import sys
 
 # List of designated copyright owners.
-AUTHORS = ['The Khronos Group Inc.',
+AUTHORS = ['InsightOS',
+           'The Khronos Group Inc.',
            'LunarG Inc.',
            'Google Inc.',
            'Google LLC',
