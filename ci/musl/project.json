@@ -5,6 +5,7 @@
   "upstream_tag": "v2025.3",
   "upstream_commit": "33e02568181e3312f49a3cf33df470bf96ef293a",
   "libraries": [
+    "libSPIRV-Tools.so",
     "libSPIRV-Tools-shared.so"
   ],
   "smoke_commands": [
@@ -16,5 +17,7 @@
       "spirv-val",
       "--version"
     ]
-  ]
+  ],
+  "equivalent_upstream_tag": "vulkan-sdk-1.4.321.0",
+  "patches_origin": "https://raw.githubusercontent.com/alpinelinux/aports/9d63bf4e11abd32e2affeb295e5244314955b463/main/spirv-tools/spv-intel-function-variants-basic-asm-dis.patch"
 }
