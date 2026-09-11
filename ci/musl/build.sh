@@ -3,7 +3,7 @@ set -eu
 cd /work
 mkdir -p logs build prefix dist
 exec > logs/build.log 2>&1
-apk add --no-cache build-base cmake ninja git binutils python3 patch
+apk add --no-cache build-base cmake ninja git binutils python3 patch linux-headers
 apk info -v > logs/apk-packages.txt
 git config --global --add safe.directory '*'
 cp -a /src source
