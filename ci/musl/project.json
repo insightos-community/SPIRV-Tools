@@ -1,0 +1,20 @@
+{
+  "project": "spirv-tools",
+  "version": "2025.3",
+  "upstream": "https://github.com/KhronosGroup/SPIRV-Tools",
+  "upstream_tag": "v2025.3",
+  "upstream_commit": "33e02568181e3312f49a3cf33df470bf96ef293a",
+  "libraries": [
+    "libSPIRV-Tools-shared.so"
+  ],
+  "smoke_commands": [
+    [
+      "spirv-as",
+      "--version"
+    ],
+    [
+      "spirv-val",
+      "--version"
+    ]
+  ]
+}
